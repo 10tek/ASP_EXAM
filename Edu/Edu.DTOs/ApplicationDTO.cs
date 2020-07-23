@@ -1,13 +1,10 @@
 ﻿using Edu.Domain.Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Edu.Domain
+namespace Edu.DTOs
 {
-    public class Application
+    public class ApplicationDTO
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
         public string IIN { get; set; }
         public int Score { get; set; }
         public Profile FirstProfile { get; set; }
